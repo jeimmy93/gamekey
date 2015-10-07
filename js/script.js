@@ -77,7 +77,7 @@ $(function()
 		else
 		{
 			//alert("la letra no esta");  
-			$(document).ready(function() { 
+
              swal
              ({ 
              title: "Error!", 
@@ -91,7 +91,7 @@ $(function()
              	console.log("disminuirscore" +score);
              	nom_div("puntua").innerHTML = "Score: " + score;
              }
-                                          });
+                                       
 
 		};
 		
